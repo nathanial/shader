@@ -7,8 +7,8 @@ package shader where
 require crucible from git "https://github.com/nathanial/crucible" @ "v0.0.9"
 
 @[default_target]
-lean_lib Ushader where
-  roots := #[`Ushader]
+lean_lib Shader where
+  roots := #[`Shader]
 
 lean_lib Tests where
   roots := #[`Tests]
